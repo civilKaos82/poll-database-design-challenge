@@ -2,6 +2,9 @@
  
 ##Learning Competencies 
 
+* Design database schema from problem data
+* Model relationships in a relational database (one-to-one, one-to-many, many-to-many)
+
 ##Summary 
 
  As we all saw in the last election, the polling has become integral to politics and many other field.  Polls are only useful if you can quickly and accurately access the data.  There are many ways to form a polling database, but let's start by building a basic system with users, questions, responses and votes. 
@@ -13,18 +16,17 @@ Here are the requirements of our system:
 3. A poll has many responses, e.g., "Hillary Clinton", "Arnold Schwarzenegger", etc.
 4. A user can vote in any poll, but only once, and they can only select one response per poll
 
-## Objectives
+##Releases
 
-### Design the schema
+###Release 0 : Design schema
 
 Design a database schema for a polling app that meets the requirements.
+ 
 
+Use [SQL Designer][] to create your schema.  When you are done, save the XML of your schema and copy it to the source file `poll_schema.md`. Then, take a screenshot of your final schema design, and upload it using a free image-upload service like [Min.us](http://minus.com).  Paste the URL of the screenshot into your file (before your XML code). 
 
-Use [SQL Designer](/sql.html) to create your schema.  When you are done, save the XML of your schema and copy it into the gist. Then, take a screenshot of your final schema design, and upload it using a free image-upload service like [Min.us](http://minus.com).  Paste the URL of the screenshot into your gist (before your XML code).  
-
-##Releases
-###Release 0 
-
-##Optimize Your Learning 
+<!-- ##Optimize Your Learning  -->
 
 ##Resources
+
+* [SQL Designer](https://socrates.devbootcamp.com//sql.html)
