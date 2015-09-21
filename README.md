@@ -27,6 +27,5 @@ Use [SQL Designer][] to create your schema.  When you are done, save the XML of 
 
 <!-- ##Optimize Your Learning  -->
 
-##Resources
 
-* [SQL Designer](https://schemadesigner.devbootcamp.com/)
+[SQL Designer]: https://schemadesigner.devbootcamp.com/
