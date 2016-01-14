@@ -1,26 +1,43 @@
 # Design a Poll Database Schema 
  
-##Summary 
+## Summary
+We've been contacted by a company that allows users to create and answer one-question polls.  The company would like us to design a database to support its business.  Below is a description of how the polls operate and a list of questions which our schema design should support answering.
 
- As we all saw in the last election, the polling has become integral to politics and many other field.  Polls are only useful if you can quickly and accurately access the data.  There are many ways to form a polling database, but let's start by building a basic system with users, questions, responses and votes. 
 
-Here are the requirements of our system: 
+### Description of Polling
+When users create a new poll, they supply one question that will be presented to poll takers.  They also supply a list of response options from which poll takers select their answers.  When users take a poll, they are presented with the poll question and the list of response options.  The poll takers select a response option.  Poll creators can then review the responses to their polls.
 
-1. A user can create many polls, but a poll is created by only one user
-2. A poll has a question, e.g., "Who do you support for President in 2016?"
-3. A poll has many responses, e.g., "Hillary Clinton", "Arnold Schwarzenegger", etc.
-4. A user can vote in any poll, but only once, and they can only select one response per poll
+For example, a poll might pose the question "Which is your favorite Ruby programming book?" and offer the response options *The Well-grounded Rubyist*, *Eloquent Ruby*, and *Practical Object-oriented Design in Ruby*.  Users taking the poll would select one of the provided options.  
 
-##Releases
 
-###Release 0 : Design schema
+### Questions to Answer
+For a user,
+- which polls did the user create?
+- which polls did a user take?
+- which response option did a user select for a poll?
 
-Design a database schema for a polling app that meets the requirements.
+For a poll,
+- which user created the poll?
+- which users have taken the poll?
+- what question does the poll present to takers?
+- what are the possible responses to the poll?
+- what response options have takers made to the questions?
+
+For a response option,
+- for which poll was the response option written?
+- which users have selected the response option?
+
+
+## Releases
+### Release 0: Design a Schema to Support Polling
+Design a database schema to support the polling described in the *Summary*.  Each of the questions in presented in the *Summary* should be answerable based on our schema design.
  
-
-Use [SQL Designer][] to create your schema.  When you are done, save the XML of your schema and copy it to the source file `poll_schema.md`. Then, take a screenshot of your final schema design, and upload it using a free image-upload service like [Min.us](http://minus.com).  Paste the URL of the screenshot into your file (before your XML code). 
-
-<!-- ##Optimize Your Learning  -->
+Use [SQL Designer][] to create a visual representation of the schema.  When we're done, [take a screenshot][mac screenshot instructions] of the final schema design.  Add the screenshot image to the challenge directory and use git to commit the change.
 
 
+## Conclusion
+This challenge presented us with another opportunity to design a database schema to support an application.  We'll be required to do a lot of database design moving forward at Dev Bootcamp.  Take time with pairs, fellow Boots, and instructors to clear up any lingering questions related to schema design.
+
+
+[mac screenshot instructions]: https://support.apple.com/en-us/HT201361
 [SQL Designer]: https://schemadesigner.devbootcamp.com/
