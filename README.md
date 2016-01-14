@@ -1,10 +1,5 @@
 # Design a Poll Database Schema 
  
-##Learning Competencies 
-
-* Design database schema from problem data
-* Model relationships in a relational database (one-to-one, one-to-many, many-to-many)
-
 ##Summary 
 
  As we all saw in the last election, the polling has become integral to politics and many other field.  Polls are only useful if you can quickly and accurately access the data.  There are many ways to form a polling database, but let's start by building a basic system with users, questions, responses and votes. 
