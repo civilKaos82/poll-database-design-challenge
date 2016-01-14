@@ -1,4 +1,4 @@
-# Poll Database Design 
+# Design a Poll Database Schema 
  
 ##Learning Competencies 
 
