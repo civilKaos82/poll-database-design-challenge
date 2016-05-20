@@ -1,7 +1,7 @@
 # Design a Poll Database Schema
 
 ## Summary
-We've been contacted by a company that allows users to create and answer one-question polls.  The company would like us to design a database to support its business.  Below is a description of how the polls operate and a list of questions which our schema design should support answering.
+We've been contacted by a company that allows users to create and answer one-question polls.  The company would like us to design a database to support its business.  Below is a description of how the polls operate.
 
 
 ### Description of Polling
@@ -13,8 +13,12 @@ In Figure 1, we see a poll that poses the question "How often are you on Twitter
 *Figure 1*. An example poll from Twitter.
 
 
+## Releases
+### Release 0: Design a Schema to Support Polling
+Design a database schema to support the polling described in the *Summary*.  Use [Schema Designer][] to create a visual representation of the schema.  When the schema is complete, [take a screenshot][mac screenshot instructions] of the final schema design.  Add the screenshot image to the challenge directory and commit the change.
 
-### Questions to Answer
+Each of the following questions should be answerable based on our schema design.
+
 For a user,
 - which polls did the user create?
 - which polls did a user take?
@@ -32,16 +36,10 @@ For a response option,
 - which users have selected the response option?
 
 
-## Releases
-### Release 0: Design a Schema to Support Polling
-Design a database schema to support the polling described in the *Summary*.  Each of the questions presented in the *Summary* should be answerable based on our schema design.
-
-Use [SQL Designer][] to create a visual representation of the schema.  When we're done, [take a screenshot][mac screenshot instructions] of the final schema design.  Add the screenshot image to the challenge directory and use git to commit the change.
-
 
 ## Conclusion
 This challenge presented us with another opportunity to design a database schema to support an application.  We'll be required to do a lot of database design moving forward at Dev Bootcamp.  Take time with pairs, fellow Boots, and instructors to clear up any lingering questions related to schema design.
 
 
 [mac screenshot instructions]: https://support.apple.com/en-us/HT201361
-[SQL Designer]: https://schemadesigner.devbootcamp.com/
+[Schema Designer]: https://schemadesigner.devbootcamp.com/
