@@ -7,9 +7,11 @@ We've been contacted by a company that allows users to create and answer one-que
 ### Description of Polling
 When users create a new poll, they supply one question that will be presented to poll takers.  They also supply a list of response options from which poll takers select their answers.  When users take a poll, they are presented with the poll question and the list of response options.  The poll takers select a response option.  Poll creators can then review the responses to their polls.
 
-![Example Poll](./readme-assets/poll-example.jpg)
+In Figure 1, we see a poll that poses the question "How often are you on Twitter?" and offers four response options: *all day*, *several times a day*, *once a day*, and *few times per week*. Users taking the poll select one of the provided options.
 
-In the example above, the poll poses the question "How often are you on Twitter" and offers response options *all day*, *several times a day*, *once a day*, and *few times per week*. Users taking the poll can select one of the provided options.
+![Example Poll](./readme-assets/poll-example.jpg)  
+*Figure 1*. An example poll from Twitter.
+
 
 
 ### Questions to Answer
